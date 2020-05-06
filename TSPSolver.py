@@ -7,7 +7,7 @@ class CNode:
 		self.lat = lat
 		self.lon = lon
 
-def TSPSolver(nodes, tauDist, tauTime):
+def TSPSolver(nodes, tauDist):
 	n = len(nodes)
 
 	TSP = Model('TSP')
